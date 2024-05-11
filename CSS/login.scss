@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../IMAGE/image1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+
+    h1  {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        padding: 50px 0;
+    }
+
+    .login-form {
+        background: rgba(0, 0, 0, 0.4117647058823529);
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 3em;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+        h2 {
+            color: #fc3955;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            padding-bottom: 50px;
+        }
+
+        form {
+            .form-group {
+                margin: 20px 0;
+
+                label {
+                    display: block;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    color: #d2d2d2;
+                    letter-spacing: 2px;
+                    margin-bottom: 10px;
+                    font-style: italic;
+                }
+
+                .group {
+                    display: flex;
+                    padding: 15px 5px;
+                    background-color: #FFFFFF;
+
+                    i {
+                        color: #fc3955;
+                        font-size: 20px;
+                        padding: 0 10px;
+                    }
+
+                    input {
+                        width: 100%;
+                        border: none;
+                        box-sizing: border-box;
+                        background: transparent;
+                        color: #000;
+                    }
+                }
+            }
+
+            .forgot {
+                display: flex;
+                justify-content: space-between;
+                margin: 20px 0;
+
+                a {
+                    color: #eee;
+                    font-size: 14px;
+                    text-decoration: none;
+                }
+
+                p {
+                    color: #FFFFFF;
+                    text-align: center;
+                    font-size: 13px;
+                }
+            }
+            
+            button {
+                background: #fc3955;
+                color: #FFFFFF;
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                border: none;
+                padding: 12px 60px;
+                cursor: pointer;
+                width: 100%;
+                border-radius: 6px;
+            }
+        }
+    }
+}
